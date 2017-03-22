@@ -28,6 +28,7 @@ namespace GestionCommande.vue
                 Console.WriteLine("3 : Afficher la liste des commandes");
                 Console.WriteLine("4 : Afficher les commandes d'un client");
                 Console.WriteLine("5 : Ajouter une commande");
+                Console.WriteLine("6 : Ajouter un client");
                 Console.WriteLine("q : quitter");
 
                 input = Console.ReadLine();
@@ -48,6 +49,9 @@ namespace GestionCommande.vue
                         break;
                     case "5":
                         AjouterCommande();
+                        break;
+                    case "6":
+                        AjouterClient();
                         break;
                     default:
                         break;
@@ -154,6 +158,18 @@ namespace GestionCommande.vue
             {
                 Console.WriteLine(client.Id + " : " + client.Prenom + " " + client.Nom);
             }
+        }
+
+        private void AjouterClient()
+        {
+            Console.WriteLine("Ajout d'un nouveau client");
+            Console.WriteLine("Veuillez entrer le nom du client");
+            string nom = Console.ReadLine();
+            Console.WriteLine("Veuillez entrer le prenom du client");
+            string prenom = Console.ReadLine();
+            Console.WriteLine("Veuillez entrer l'adresse mail du client");
+            string mail = Console.ReadLine();
+            controleur.CreerClient(nom, prenom, mail);
         }
     }
 }

@@ -10,3 +10,15 @@ C:\Users\Benj\Documents\Visual Studio 2015\Projects\Commande\Commande\bin\Debug\
 C:\Users\Benj\Documents\Visual Studio 2015\Projects\Commande\Commande\obj\Debug\GestionCommande.csprojResolveAssemblyReference.cache
 C:\Users\Benj\Documents\Visual Studio 2015\Projects\Commande\Commande\obj\Debug\Commande.exe
 C:\Users\Benj\Documents\Visual Studio 2015\Projects\Commande\Commande\obj\Debug\Commande.pdb
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\Commande.exe.config
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\obj\Debug\Commande.exe
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\obj\Debug\Commande.pdb
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\Commande.exe
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\Commande.pdb
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\EntityFramework.dll
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\EntityFramework.xml
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\maxim\OneDrive\EPSI_B2\C#\A RENDRE\GitCommande\Commande\obj\Debug\GestionCommande.csprojResolveAssemblyReference.cache
