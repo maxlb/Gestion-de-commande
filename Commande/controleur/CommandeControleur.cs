@@ -36,6 +36,7 @@ namespace GestionCommande.controleur
         public void CreerClient(string nom, string prenom, string mail)
         {
             Client clt = new Client { Id = ClientDao.Clients.Count + 1, Nom = nom, Prenom = prenom, Mail = mail, Commandes = new Collection<Commande>() };
+            ClientDao.Clients.Add(clt);
         }
 
         public ICollection<Client>  GetClients()

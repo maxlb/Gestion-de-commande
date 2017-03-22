@@ -42,5 +42,7 @@ namespace GestionCommande.controleur
         {
             return ctx.Produits.ToList();
         }
+
+        public void CreerClient(string nom, string prenom, string mail) { }
     }
 }
