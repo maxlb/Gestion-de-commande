@@ -29,6 +29,7 @@ namespace GestionCommande.vue
                 Console.WriteLine("4 : Afficher les commandes d'un client");
                 Console.WriteLine("5 : Ajouter une commande");
                 Console.WriteLine("6 : Ajouter un client");
+                Console.WriteLine("7 : Ajouter un produit");
                 Console.WriteLine("q : quitter");
 
                 input = Console.ReadLine();
@@ -51,7 +52,10 @@ namespace GestionCommande.vue
                         AjouterCommande();
                         break;
                     case "6":
-                        AjouterClient();
+                        AjouterNouveauClient();
+                        break;
+                    case "7":
+                        AjouterNouveauProduit();
                         break;
                     default:
                         break;
@@ -160,7 +164,7 @@ namespace GestionCommande.vue
             }
         }
 
-        private void AjouterClient()
+        private void AjouterNouveauClient()
         {
             Console.WriteLine("Ajout d'un nouveau client");
             Console.WriteLine("Veuillez entrer le nom du client");
@@ -170,6 +174,16 @@ namespace GestionCommande.vue
             Console.WriteLine("Veuillez entrer l'adresse mail du client");
             string mail = Console.ReadLine();
             controleur.CreerClient(nom, prenom, mail);
+        }
+
+        private void AjouterNouveauProduit()
+        {
+            Console.WriteLine("Ajout d'un nouveau produit");
+            Console.WriteLine("Veuillez entrer la designation du produit");
+            string designation = Console.ReadLine();
+            Console.WriteLine("Veuillez entrer le prix du produit");
+            int prix = int.Parse(Console.ReadLine());
+            controleur.CreerProduit(designation, prix);
         }
     }
 }

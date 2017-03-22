@@ -44,5 +44,7 @@ namespace GestionCommande.controleur
         }
 
         public void CreerClient(string nom, string prenom, string mail) { }
+
+        public void CreerProduit(string designation, int prix) { }
     }
 }

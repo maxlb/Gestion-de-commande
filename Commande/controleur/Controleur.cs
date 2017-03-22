@@ -14,6 +14,8 @@ namespace GestionCommande.controleur
 
         void CreerClient(string nom, string prenom, string mail);
 
+        void CreerProduit(string designation, int prix);
+
         ICollection<Client> GetClients();
 
         ICollection<Produit> GetProduits();

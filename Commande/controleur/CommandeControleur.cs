@@ -38,6 +38,12 @@ namespace GestionCommande.controleur
             Client clt = new Client { Id = ClientDao.Clients.Count + 1, Nom = nom, Prenom = prenom, Mail = mail, Commandes = new Collection<Commande>() };
             ClientDao.Clients.Add(clt);
         }
+        
+        public void CreerProduit(string designation, int prix)
+        {
+            Produit pdt = new Produit { Id = ProduitDao.Produits.Count + 1, Designation = designation, Prix = prix };
+            ProduitDao.Produits.Add(pdt);
+        }
 
         public ICollection<Client>  GetClients()
         {
