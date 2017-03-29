@@ -75,12 +75,14 @@
     <Compile Include="model\LigneCommande.cs" />
     <Compile Include="model\Produit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tests unitaires\TestsUnitaires.cs" />
     <Compile Include="vue\MainVue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -66,8 +66,8 @@ namespace GestionCommande.vue
 
         private void AfficherCommandeParClient()
         {
-            Client client = this.ChoisirClient();
-            this.AfficherCommandes(client.Commandes);
+            Client client = ChoisirClient();
+            AfficherCommandes(client.Commandes);
         }
 
         private void AfficherCommandes()
@@ -124,7 +124,6 @@ namespace GestionCommande.vue
             string input = "";
             do
             {
-
                 Produit prod = this.AjouterProduit();
                 Console.WriteLine("Veuillez entrer une quantité");
                 int qte = int.Parse(Console.ReadLine());
@@ -134,7 +133,6 @@ namespace GestionCommande.vue
                 Console.WriteLine("Appuyer sur 'q' si vous souhaitez arrêter d'ajouter des produits, sinon, appuyez sur n'importe quelle touche");
                 input = Console.ReadLine();
             } while (!"q".Equals(input));
-
             return lignesCommande;
         }
 
@@ -148,12 +146,6 @@ namespace GestionCommande.vue
             }
             string input = Console.ReadLine();
             return produits.Where(p => p.Id == int.Parse(input)).First();
-        }
-
-        private int AjouterQuantité()
-        {
-            Console.WriteLine("Veuillez entrer une quantité");
-            return int.Parse(Console.ReadLine());
         }
 
         private void AfficherClients()
